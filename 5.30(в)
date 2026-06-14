@@ -1,0 +1,3 @@
+n = int(input("число n (1 <= n <= 100): "))
+sum_v = sum(i**2 for i in range(1, n + 1))
+print(f"сумма квадратов от 1 до {n}:", sum_v)
