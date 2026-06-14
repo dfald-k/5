@@ -1,0 +1,4 @@
+a = int(input("введите число a: "))
+b = int(input("введите число b (b >= a): "))
+sum_g = sum(i**2 for i in range(a, b + 1))
+print(f"сумма квадратов от {a} до {b}:", sum_g)
